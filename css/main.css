@@ -1,7 +1,7 @@
 /*****BASE STYLES****/
 
 body {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Lora', serif;
     color: #2b2b2b;
     background-color: #aae6bd;
 
@@ -67,12 +67,11 @@ nav ul li {
 }
 
 nav ul li a {
- font-family: 'Exo 2', sans-serif;
  text-transform: uppercase;
  text-decoration: none;
  font-size: 18px;
  color: black;
- margin-left: 100px;
+ margin-left: 85px;
 
 
 
@@ -83,7 +82,6 @@ nav ul li a {
    font-family: 'Exo 2', sans-serif;
    color: black;
    font-size: 70px;
-   text-decoration: underline #c7c8c9 4px;
    float: right;
    margin-right: 425px;
 
@@ -125,9 +123,7 @@ nav ul li a {
   width: 1500px;
   height: 220px;
   backdrop-filter: blur(5px);
-  border-radius: 5px;
-  background: rgba(204, 204, 204, 0.5);
-  margin-left: 50px;
+
 
 
 }
@@ -252,8 +248,6 @@ nav ul li a {
     background: rgba(204, 204, 204, 0.5);
     padding: 15px 15px 15px 15px;
 
-
-
  }
 
  #client p {
@@ -263,3 +257,35 @@ nav ul li a {
  }
 
  /*****CONTACT*****/
+
+
+ #contact span {
+
+     font-family: 'Exo 2', sans-serif;
+     color: #60b146;
+ }
+
+ #contact h1 {
+   font-size: 52px;
+ }
+
+ #contact img {
+
+   padding: 10px 10px 10px 10px;
+ }
+
+ #contact .half-width {
+
+    margin: 70px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    background: rgba(204, 204, 204, 0.5);
+    padding: 30px 30px 30px 30px;
+    height: 450px;
+
+ }
+
+#contact .full-width {
+  background-color: white;
+  height: 660px;
+}
